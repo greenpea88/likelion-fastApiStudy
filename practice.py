@@ -80,7 +80,7 @@ def param(param: int):
 @app.get("/path/{item_id}")
 def path(
 
-    q: str, item_id: int = Path(..., title="The ID of the item to get")
+    *, item_id: int = Path(..., title="The ID of the item to get"), q: str
 
 ):
     results = {"item_id": item_id}
