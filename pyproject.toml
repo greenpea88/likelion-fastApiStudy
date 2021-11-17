@@ -7,6 +7,8 @@ authors = ["greenpea88 <green_pea88@naver.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+psycopg2-binary = "^2.9.2"
 
 [tool.poetry.dev-dependencies]
 
